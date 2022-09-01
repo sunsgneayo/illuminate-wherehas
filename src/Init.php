@@ -34,6 +34,7 @@ class Init implements Bootstrap
         });
 
 
+        /** 初始化 */
         Eloquent\Builder::macro('orWhereHasIn', function ($relationName, $callable = null) {
             return $this->orWhere(function ($query) use ($relationName, $callable) {
                 return $query->whereHasIn($relationName, $callable);
