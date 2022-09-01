@@ -1,0 +1,23 @@
+{
+  "name": "sunsgne/where-has",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin sunsgne/where-has",
+  "require": {
+    "php": ">=7.4",
+    "workerman/webman-framework": "^1.4.3",
+    "illuminate/database": "^8.83",
+    "illuminate/events": "^8.83"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sunsgne\\WhereHas\\": "src"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
