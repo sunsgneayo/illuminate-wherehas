@@ -41,6 +41,7 @@ class Init implements Bootstrap
             });
         });
 
+        /** 初始化  whereHasNotIn */
         Eloquent\Builder::macro('whereHasNotIn', function ($relationName, $callable = null) {
             return (new WhereHasNotIn($this, $relationName, function ($nextRelation, $builder) use ($callable) {
                 if ($nextRelation) {
