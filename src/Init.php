@@ -55,17 +55,17 @@ class Init implements Bootstrap
                 return $builder;
             }))->execute();
         });
-        /**  */
+        /** 初始化  orWhereHasNotIn */
         Eloquent\Builder::macro('orWhereHasNotIn', function ($relationName, $callable = null) {
             return $this->orWhere(function ($query) use ($relationName, $callable) {
                 return $query->whereHasNotIn($relationName, $callable);
             });
         });
 
-        /**  */
+        /** 初始化  whereHasMorphIn*/
         Eloquent\Builder::macro('whereHasMorphIn', WhereHasMorphIn::make());
 
-        /**  */
+        /** 初始化  orWhereHasMorphIn*/
         Eloquent\Builder::macro('orWhereHasMorphIn', function ($relation, $types, $callback = null) {
             return $this->whereHasMorphIn($relation, $types, $callback, 'or');
         });
