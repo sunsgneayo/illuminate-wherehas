@@ -2,14 +2,13 @@
 
 namespace Sunsgne\WhereHas\Builder;
 
-use Illuminate\Database\Eloquent;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
 
 /**
- * @purpose
+ * @purpose whereHasIn
  * @date 2022/9/1
  * @author sunsgne
  */
