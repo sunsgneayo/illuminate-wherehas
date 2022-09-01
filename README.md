@@ -1,2 +1,2 @@
-# illuminate-wherehas
-优化where-has
+# illuminate-whereHas
+
