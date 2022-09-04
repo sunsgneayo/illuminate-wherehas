@@ -1,5 +1,5 @@
 # illuminate-whereHas
-
+jj
 `illuminate/database` model的whereHas执行的SQL如下
 ```sql
  select * from `group_member` where exists 
