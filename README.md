@@ -1,5 +1,5 @@
 # illuminate-whereHas
-
+Wherehas of illuminate/database executes SQL statements, the response time is not ideal
 illdb`illuminate/database` model的whereHas执行的SQL如下
 ```sql
  select * from `group_member` where exists 
