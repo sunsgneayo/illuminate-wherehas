@@ -12,6 +12,7 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
                  and `deleted_at` is null
      ) and `deleted_at` is null
 ```
+在业务测试中，上述SQL对耗时：
 
 `sunsgne/where-has` model的whereHas执行的SQL如下
 ```sql
@@ -22,3 +23,4 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
                  and `deleted_at` is null
      ) and `deleted_at` is null
 ```
+在业务测试中，上述SQL对耗时：
