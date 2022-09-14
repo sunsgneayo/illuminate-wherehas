@@ -27,4 +27,6 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
 ```
 在业务测试中，上述SQL对耗时：0.027166843414307 秒
 
-` mysql 中 in 与 exists 的执行计划
+## mysql 中 in 与 exists 的执行计划
+- in
+对于 in 查询来说，会先执行子查询，如上边的 t2 表，然后把查询得到的结果和外表 t1 做笛卡尔积，再通过条件进行筛选（这里的条件就是指 name 是否相等），把每个符合条件的数据都加入到结果集中。
