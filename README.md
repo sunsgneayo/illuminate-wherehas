@@ -27,4 +27,4 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
 ```
 在业务测试中，上述SQL对耗时：0.027166843414307 秒
 
-## 
+> mysql 中 in 与 exists 的执行计划
