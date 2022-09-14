@@ -45,6 +45,33 @@ for(x in A){
  ```
 
 ### exists 执行流程
- - 对于 exists 来说，是先查询遍历外表 t1 ，然后每次遍历时，再检查在内表是否符合匹配条件，即检查是否存在 name 相等的数据。
+ - 对于 exists 来说，是先查询遍历外表 t1 ，然后每次遍历时，再检查在内表是否符合匹配条件，即检查是否存在 name 相等的数据。执行SQL如下；
+
+```select * from t1 where name exists (select 1 from t2);```
+
+
+- 伪代码
+
+```c
+for(x in A){
+  if(exists condition is true){result.add();}
+} 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
