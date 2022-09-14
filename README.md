@@ -31,7 +31,19 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
 
 ### in 执行流程
 - 对于 in 查询来说，会先执行子查询，如上边的 t2 表，然后把查询得到的结果和外表 t1 做笛卡尔积，再通过条件进行筛选（这里的条件就是指 name 是否相等），把每个符合条件的数据都加入到结果集中。
+
+
 ```select * from t1 where name in (select name from t2);```
+- 伪代码如下
+
+```c
+for(x in A){
+    for(y in B){
+     if(condition is true) {result.add();}
+    }
+}
+ ```
+
 ### exists 执行流程
  - 对于 exists 来说，是先查询遍历外表 t1 ，然后每次遍历时，再检查在内表是否符合匹配条件，即检查是否存在 name 相等的数据。
 
