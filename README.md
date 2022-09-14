@@ -47,7 +47,7 @@ for(x in A){
 - in是把外表和内表做hash连接，先查询内表，再把内表结果与外表匹配，对外表使用索引（外表效率高，可用大表），而内表多大都需要查询，不可避免，故外表大的使用in，可加快效率。
 
 
-### exists 执行流程
+### EXISTS
  - 对于 exists 来说，是先查询遍历外表 t1 ，然后每次遍历时，再检查在内表是否符合匹配条件，即检查是否存在 name 相等的数据。执行SQL如下；
 
 ```select * from t1 where name exists (select 1 from t2);```
