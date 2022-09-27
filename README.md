@@ -2,9 +2,9 @@
 
 **<p align="center">sunsgne/webman-rate-limiter</p>**
 
-**<p align="center">🐇   🐇</p>**
+**<p align="center">🐬 illuminate-wherehas  method mysql optimizes query 🐬</p>**
 
-# Webman plugin for sqlite database service current limiting solution.
+# illuminate-wherehas  method mysql optimizes query.
 
 <div align="center">
     <a href="https://github.com/workbunny/webman-rate-limiter/releases">
