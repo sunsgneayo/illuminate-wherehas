@@ -1,6 +1,6 @@
 
 <p align="center"><img width="260px" src="https://oss.tool.lu/cache/202209/27/1523267siotzrscyii3g3a.png.optim.png" alt="sunsgne"></p>
-**<p align="center">sunsgne/webman-rate-limiter</p>**
+<p align="center">sunsgne/illuminate-wherehas</p>
 
 **<p align="center">🐬 illuminate-wherehas  method mysql optimizes query 🐬</p>**
 
