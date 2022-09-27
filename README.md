@@ -1,4 +1,4 @@
-<p align="center"><img width="260px" src="https://cdn.sunsgne.top/logo-w-s.jpg" alt="sunsgne"></p>
+<p align="center"><img width="260px" src="https://cdn.sunsgne.top/logo-w.png" alt="sunsgne"></p>
 
 **<p align="center">sunsgne/webman-rate-limiter</p>**
 
