@@ -5,7 +5,7 @@
 **<p align="center">🐬 illuminate-wherehas  method mysql optimizes query 🐬</p>**
 
 # illuminate-wherehas  method mysql optimizes query.
-
+Wherehas of illuminate/database executes SQL statements, the response time is not ideal
 <div align="center">
     <a href="https://github.com/workbunny/webman-rate-limiter/releases">
         <img alt="Latest Stable Version" src="http://poser.pugx.org/workbunny/webman-rate-limiter/v">
@@ -19,8 +19,7 @@
 </div>
 
 
-# illuminate-whereHas
-Wherehas of illuminate/database executes SQL statements, the response time is not ideal
+
 
 ## 示例
 
