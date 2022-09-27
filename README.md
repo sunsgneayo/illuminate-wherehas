@@ -21,9 +21,12 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
 
 ## 开始
 ```
-composer 
+    composer require sunsgne/illuminate-wherehas
 ```
-## 示例
+## 用法
+
+
+## 说明
 
 主表`group_member`写入`130002`条数据，关联表`group`写入`1002`条数据
 
