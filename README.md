@@ -1,15 +1,12 @@
-<p align="center"><img width="260px" src="https://chaz6chez.cn/images/workbunny-logo.png" alt="workbunny"></p>
+<p align="center"><img width="260px" src="https://cdn.sunsgne.top/logo.png" alt="sunsgne"></p>
 
-**<p align="center">workbunny/webman-rate-limiter</p>**
+**<p align="center">sunsgne/webman-rate-limiter</p>**
 
-**<p align="center">🐇  Webman plugin for sqlite database service current limiting solution. 🐇</p>**
+**<p align="center">🐇   🐇</p>**
 
 # Webman plugin for sqlite database service current limiting solution.
 
 <div align="center">
-    <a href="https://github.com/workbunny/webman-rate-limiter/actions">
-        <img src="https://github.com/workbunny/webman-rate-limiter/actions/workflows/CI.yml/badge.svg" alt="Build Status">
-    </a>
     <a href="https://github.com/workbunny/webman-rate-limiter/releases">
         <img alt="Latest Stable Version" src="http://poser.pugx.org/workbunny/webman-rate-limiter/v">
     </a>
