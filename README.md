@@ -19,8 +19,10 @@ Wherehas of illuminate/database executes SQL statements, the response time is no
 </div>
 
 
-
-
+## 开始
+```
+composer 
+```
 ## 示例
 
 主表`group_member`写入`130002`条数据，关联表`group`写入`1002`条数据
