@@ -9,13 +9,13 @@
 Wherehas of illuminate/database executes SQL statements, the response time is not ideal
 <div align="center">
     <a href="https://github.com/workbunny/webman-rate-limiter/releases">
-        <img alt="Latest Stable Version" src="http://poser.pugx.org/workbunny/webman-rate-limiter/v">
+        <img alt="Latest Stable Version" src="http://poser.pugx.org/sunsgne/where-has/v">
     </a>
     <a href="https://github.com/workbunny/webman-rate-limiter/blob/main/composer.json">
-        <img alt="PHP Version Require" src="http://poser.pugx.org/workbunny/webman-rate-limiter/require/php">
+        <img alt="PHP Version Require" src="http://poser.pugx.org/sunsgne/where-has/require/php">
     </a>
     <a href="https://github.com/workbunny/webman-rate-limiter/blob/main/LICENSE">
-        <img alt="GitHub license" src="http://poser.pugx.org/workbunny/webman-rate-limiter/license">
+        <img alt="GitHub license" src="http://poser.pugx.org/sunsgne/where-has/license">
     </a>
 </div>
 
